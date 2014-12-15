@@ -19,11 +19,9 @@ To run tests, open SpecRunner.html in a browser.
 
 ## System Design
 
-This is a very basic version of a classic Makers Academy exercise. In this version, the airport has a capacity of 5 planes, and it can
+This is a very basic version of a classic Makers Academy exercise. In this version, the airport has a capacity of 5 planes, and it can keep track of planes as they take off and land. It will prevent a plane from landing if it is at capacity.
 
-The airport has responsibility to manage the landing and takeoff of planes based on its runway capacity.
-
-Planes have responsibility to toggle their own status of being in the air or on the ground.
+Planes track their own status of being in the air or on the ground.
 
 ## Future Iterations
 
